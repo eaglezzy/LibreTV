@@ -5,12 +5,11 @@
   "observability": {
     "enabled": true
   },
-  "secrets": [
-    "PASSWORD"
-  ],
+  "secrets": {
+    "PASSWORD": "PASSWORD" 
+  },
   "assets": {
-    "directory": ".",
-    "exclude": ["node_modules/**", ".git/**", ".wrangler/**"]
+    "directory": "."
   },
   "compatibility_flags": [
     "nodejs_compat"
